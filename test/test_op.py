@@ -30,7 +30,7 @@ def test_filter_sort():
 
 
 def test_load_data():
-    result = load_data("../json_for_func_test.json")
+    result = load_data("json_for_func_test.json")
     assert len(result) == 1
 
 def test_formatted_data():
